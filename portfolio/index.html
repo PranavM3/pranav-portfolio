@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranav M | AI & Data Science Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Pranav M - B.Tech AI & Data Science student. Experienced in AI engineering, computer vision, web development, and cloud computing.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Pranav M | AI & Data Science Engineer">
+  <meta property="og:description" content="Building AI-powered solutions that bridge innovation, automation, and real-world impact.">
+  <meta property="og:type" content="website">
+</head>
+<body>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-logo">PM</div>
+    <div class="loading-bar-track">
+      <div class="loading-bar-fill" id="loadingFill"></div>
+    </div>
+    <div class="loading-text">system loading... <span id="loadingPercent">0%</span></div>
+  </div>
+
+  <!-- Smooth Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Glassmorphism Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-brand" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+        <div class="nav-brand-icon">PM</div>
+        <span>PRANAV M</span>
+      </div>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">Philosophy</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <a href="mailto:pranav.m2024aids@sece.ac.in" class="nav-cta">Download Resume</a>
+      <button class="nav-mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Navigation">
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Navigation -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#hero" class="mobile-nav-link active">Home</a>
+    <a href="#about" class="mobile-nav-link">Philosophy</a>
+    <a href="#experience" class="mobile-nav-link">Experience</a>
+    <a href="#projects" class="mobile-nav-link">Projects</a>
+    <a href="#skills" class="mobile-nav-link">Skills</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <!-- Floating Nav Dots -->
+  <div class="floating-nav" id="floatingNav">
+    <div class="floating-nav-dot active" data-target="hero" data-label="Home"></div>
+    <div class="floating-nav-dot" data-target="about" data-label="Philosophy"></div>
+    <div class="floating-nav-dot" data-target="experience" data-label="Experience"></div>
+    <div class="floating-nav-dot" data-target="projects" data-label="Projects"></div>
+    <div class="floating-nav-dot" data-target="skills" data-label="Skills"></div>
+    <div class="floating-nav-dot" data-target="contact" data-label="Contact"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-aurora">
+      <div class="hero-aurora-blob"></div>
+      <div class="hero-aurora-blob"></div>
+      <div class="hero-aurora-blob"></div>
+    </div>
+    <div class="hero-particles" id="particlesContainer"></div>
+    <div class="container hero-content">
+      <div class="hero-left">
+        <div class="hero-status">
+          <span class="status-dot"></span>
+          <span>Available for Internships · Open to AI/ML Opportunities</span>
+        </div>
+        <h1 class="hero-name">PRANAV M</h1>
+        <h2 class="hero-subtitle">Artificial Intelligence & Data Science Engineer</h2>
+        <p class="hero-tagline">Building AI-powered solutions that bridge innovation, automation and real-world impact. Applying data science to solve meaningful problems.</p>
+        <div class="hero-badges">
+          <span class="hero-badge">Deep Learning</span>
+          <span class="hero-badge">Computer Vision</span>
+          <span class="hero-badge">Natural Language Processing</span>
+          <span class="hero-badge">Cloud Architecture</span>
+        </div>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary-hero">View Projects ↗</a>
+          <a href="mailto:pranav.m2024aids@sece.ac.in" class="btn-secondary-hero">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-photo-wrapper">
+          <div class="hero-photo-ring"></div>
+          <div class="hero-photo">PM</div>
+          <div class="hero-float-el">CV Intern</div>
+          <div class="hero-float-el">SDG Developer</div>
+          <div class="hero-float-el">Hackathon Winner</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span class="scroll-text">Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section container reveal" id="about">
+    <div class="section-header">
+      <span class="section-label">Engineering Philosophy</span>
+      <h2 class="section-title">My Journey & Mindset</h2>
+      <p class="section-subtitle">How I approach problem-solving and implement intelligent systems.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-image-wrapper">
+        <div class="about-image">PM</div>
+      </div>
+      <div class="about-content">
+        <h3>Combining AI with Real-world Impact</h3>
+        <p>Currently pursuing B.Tech in AI & Data Science, I focus on constructing systems that leverage predictive modeling, real-time object tracking, and intuitive user interfaces. I believe the best engineering abstracts complex algorithms into seamless natural human-computer interactions.</p>
+        <p>From developing full proctoring systems using facial detection algorithms to collaborating internationally in Malaysia on cloud solutions, my objective is to solve practical problems that require scale, security, and continuous innovation.</p>
+        <div class="about-highlights">
+          <div class="about-highlight">
+            <div class="about-highlight-icon">🌍</div>
+            <div class="about-highlight-title">Global Perspective</div>
+            <div class="about-highlight-desc">Hands-on exposure at UiTM Malaysia developing SDG-focused systems.</div>
+          </div>
+          <div class="about-highlight">
+            <div class="about-highlight-icon">🧠</div>
+            <div class="about-highlight-title">AI & ML Focus</div>
+            <div class="about-highlight-desc">Building real-world vision models and pipeline endpoints.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section reveal" id="education" style="background: rgba(196,30,58,0.02);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Education</span>
+        <h2 class="section-title">Academic Path</h2>
+        <p class="section-subtitle">Sri Eshwar College of Engineering and primary foundation.</p>
+      </div>
+      <div class="education-timeline">
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-card">
+            <div class="edu-year">2024 – 2028</div>
+            <div class="edu-school">Sri Eshwar College of Engineering</div>
+            <div class="edu-degree">B.Tech. in Artificial Intelligence & Data Science</div>
+            <div class="edu-score">CGPA: 7.54</div>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-card">
+            <div class="edu-year">2022 – 2024</div>
+            <div class="edu-school">Velammal Higher Secondary School</div>
+            <div class="edu-degree">HSC (Higher Secondary Certificate)</div>
+            <div class="edu-score">Score: 71%</div>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-card">
+            <div class="edu-year">2021 – 2022</div>
+            <div class="edu-school">Velammal Higher Secondary School</div>
+            <div class="edu-degree">SSLC (Secondary School Leaving Certificate)</div>
+            <div class="edu-score">Score: 85.6%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section container reveal" id="experience">
+    <div class="section-header">
+      <span class="section-label">Work & Exposure</span>
+      <h2 class="section-title">Professional Internships</h2>
+      <p class="section-subtitle">Hands-on experience in cloud platforms, artificial intelligence, and software engineering pipelines.</p>
+    </div>
+    <div class="exp-cards">
+      <!-- UiTM Malaysia -->
+      <div class="exp-card">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-company">Universiti Teknologi MARA (UiTM)</h3>
+            <div class="exp-role">International Heritage Program Participant</div>
+          </div>
+          <div class="exp-meta">
+            <div class="exp-date">2026</div>
+            <div class="exp-location">📍 Malaysia</div>
+            <span class="exp-intl-badge">International Program</span>
+          </div>
+        </div>
+        <p class="exp-desc">Developed an SDG-driven heritage sustainability solution during an international innovation program at UiTM, Malaysia. Applied cloud computing and digital transformation concepts in a collaborative, cross-functional project.</p>
+        <div class="exp-highlights">
+          <span class="exp-highlight">🏆 Project Recognition: Third Prize for SDG Heritage Project</span>
+          <span class="exp-highlight">👥 Cross-functional Collaboration</span>
+          <span class="exp-highlight">☁️ Cloud Computing & transformation</span>
+        </div>
+        <div class="exp-tags">
+          <span class="exp-tag">SDG Systems</span>
+          <span class="exp-tag">Cloud Architecture</span>
+          <span class="exp-tag">Collaboration</span>
+        </div>
+      </div>
+
+      <!-- NIELIT Internship -->
+      <div class="exp-card">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-company">National Institute of Electronics & Information Technology (NIELIT)</h3>
+            <div class="exp-role">Data Analytics & AI Intern</div>
+          </div>
+          <div class="exp-meta">
+            <div class="exp-date">2025</div>
+            <div class="exp-location">📍 Calicut, Kerala</div>
+          </div>
+        </div>
+        <p class="exp-desc">Completed a rigorous 4-week AI internship at NIELIT. Designed and implemented an AI-based Online Exam Cheating Detection System with multiple real-time tracking subsystems.</p>
+        <div class="exp-highlights">
+          <span class="exp-highlight">👁️ Real-time Face & Eye Gaze tracking</span>
+          <span class="exp-highlight">🖥️ Screen Activity Monitoring & object detection</span>
+          <span class="exp-highlight">⚙️ Python & Flask deployment pipeline</span>
+        </div>
+        <div class="exp-tags">
+          <span class="exp-tag">Computer Vision</span>
+          <span class="exp-tag">Flask</span>
+          <span class="exp-tag">Python</span>
+          <span class="exp-tag">Gaze Tracking</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Project Showcase -->
+  <section class="section container reveal" id="featured-project">
+    <div class="section-header">
+      <span class="section-label">Featured Work</span>
+      <h2 class="section-title">Spotlight Project</h2>
+      <p class="section-subtitle">Real-time Computer Vision system deployed for high-stakes online examinations.</p>
+    </div>
+    <div class="featured-project">
+      <div class="featured-project-inner">
+        <div class="featured-project-visual">
+          <div class="featured-laptop">
+            <div class="featured-laptop-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="featured-laptop-screen">
+              👁️ AI
+            </div>
+          </div>
+        </div>
+        <div class="featured-project-content">
+          <span class="featured-badge">Active Deployment</span>
+          <h3 class="featured-title">Online Exam Proctoring System</h3>
+          <p class="featured-desc">An AI and computer vision solution engineered to ensure absolute fairness and integrity in online assessments. Built with high-frequency face checks, gaze tracking, head position alerts, and screen capture logic.</p>
+          <div class="featured-features">
+            <div class="featured-feature">
+              <div class="featured-feature-dot"></div>
+              <span>Real-time gaze deflection and eye tracking warnings</span>
+            </div>
+            <div class="featured-feature">
+              <div class="featured-feature-dot"></div>
+              <span>Multi-face detection & head pose estimation</span>
+            </div>
+            <div class="featured-feature">
+              <div class="featured-feature-dot"></div>
+              <span>Dual camera and screen layout activity monitoring</span>
+            </div>
+          </div>
+          <div class="featured-buttons">
+            <button class="project-link project-link-primary" onclick="openProjectModal('proctoring')">Explore Case Study</button>
+            <a href="https://github.com" target="_blank" class="project-link project-link-secondary">GitHub Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="section container reveal" id="projects">
+    <div class="section-header">
+      <span class="section-label">All Projects</span>
+      <h2 class="section-title">Production Implementations</h2>
+      <p class="section-subtitle">Real systems built to solve accessibility, proctoring, and automated communication problems.</p>
+    </div>
+    <div class="projects-grid">
+      <!-- SignSense -->
+      <div class="project-card" onclick="openProjectModal('signsense')">
+        <div class="project-card-visual" style="background: linear-gradient(135deg, #FFEBEB, #FFF0F5);">🤟</div>
+        <div class="project-card-content">
+          <h3 class="project-card-title">SignSense</h3>
+          <p class="project-card-desc">An AI-powered translation system for hearing and non-hearing individuals. Seamlessly converts sign gesture shapes into text-to-speech outputs.</p>
+          <div class="project-card-tags">
+            <span class="project-tag">OpenCV</span>
+            <span class="project-tag">TensorFlow</span>
+            <span class="project-tag">WebSockets</span>
+            <span class="project-tag">Text-To-Speech</span>
+          </div>
+          <div class="project-card-footer">
+            <button class="project-link project-link-primary">Case Study</button>
+            <span class="project-link project-link-secondary">GitHub</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI Telecaller -->
+      <div class="project-card" onclick="openProjectModal('telecaller')">
+        <div class="project-card-visual" style="background: linear-gradient(135deg, #FFF0F5, #FFE4E6);">📞</div>
+        <div class="project-card-content">
+          <h3 class="project-card-title">AI Telecaller</h3>
+          <p class="project-card-desc">An automated speech-to-text outbound dialer system powered by AI. Manages structured calls and records customer responses asynchronously.</p>
+          <div class="project-card-tags">
+            <span class="project-tag">Flask</span>
+            <span class="project-tag">Twilio API</span>
+            <span class="project-tag">Python Voice</span>
+            <span class="project-tag">DBMS</span>
+          </div>
+          <div class="project-card-footer">
+            <button class="project-link project-link-primary">Case Study</button>
+            <span class="project-link project-link-secondary">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section container reveal" id="skills">
+    <div class="section-header">
+      <span class="section-label">Capabilities</span>
+      <h2 class="section-title">Technical Expertise</h2>
+      <p class="section-subtitle">Deep dive into programming languages, machine learning, web tools, and analytical dashboards.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <div class="skill-category-icon">💻</div>
+        <h3 class="skill-category-title">Programming</h3>
+        <div class="skill-pills">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">C</span>
+          <span class="skill-pill">C++</span>
+          <span class="skill-pill">Java</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-icon">🧠</div>
+        <h3 class="skill-category-title">AI & ML</h3>
+        <div class="skill-pills">
+          <span class="skill-pill">OpenCV</span>
+          <span class="skill-pill">TensorFlow</span>
+          <span class="skill-pill">PyTorch</span>
+          <span class="skill-pill">Data Analytics</span>
+          <span class="skill-pill">Deep Learning</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-icon">🌐</div>
+        <h3 class="skill-category-title">Web Technologies</h3>
+        <div class="skill-pills">
+          <span class="skill-pill">React.js</span>
+          <span class="skill-pill">Node.js</span>
+          <span class="skill-pill">Flask</span>
+          <span class="skill-pill">Django</span>
+          <span class="skill-pill">Express.js</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">Springboot</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-icon">🛠️</div>
+        <h3 class="skill-category-title">Tools & Databases</h3>
+        <div class="skill-pills">
+          <span class="skill-pill">Git & GitHub</span>
+          <span class="skill-pill">Power BI</span>
+          <span class="skill-pill">Tableau</span>
+          <span class="skill-pill">Jupyter</span>
+          <span class="skill-pill">VSCode</span>
+          <span class="skill-pill">DBMS / OOPs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section reveal" style="background: rgba(196,30,58,0.01);" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Hackathons</span>
+        <h2 class="section-title">Awards & Honors</h2>
+        <p class="section-subtitle">Competitive events showcasing rapid prototyping, design, and presentation capabilities.</p>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-trophy">🥇</div>
+          <h3 class="achievement-title">Freshathon 2k25</h3>
+          <p class="achievement-desc">Secured first place in project exposition 3.0 with our innovative smart systems.</p>
+          <span class="achievement-prize">1st Prize Winner</span>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-trophy">🥈</div>
+          <h3 class="achievement-title">Createathon</h3>
+          <p class="achievement-desc">Demonstrated clean user interface designs and interactive web app pipelines within 24 hours.</p>
+          <span class="achievement-prize">2nd Prize Winner</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section container reveal" id="certifications">
+    <div class="section-header">
+      <span class="section-label">Learning Badges</span>
+      <h2 class="section-title">Certifications</h2>
+      <p class="section-subtitle">Verified professional milestones confirming proficiency in databases, language, and core programming.</p>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card">
+        <div class="cert-icon">🇩🇪</div>
+        <div class="cert-info">
+          <h4 class="cert-name">Goethe German A1</h4>
+          <span class="cert-provider">Goethe Institut</span>
+        </div>
+        <div class="cert-year">2025</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🗄️</div>
+        <div class="cert-info">
+          <h4 class="cert-name">Database Systems</h4>
+          <span class="cert-provider">NPTEL</span>
+        </div>
+        <div class="cert-year">2025</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">☕</div>
+        <div class="cert-info">
+          <h4 class="cert-name">Java Programming</h4>
+          <span class="cert-provider">Sololearn</span>
+        </div>
+        <div class="cert-year">2025</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">📊</div>
+        <div class="cert-info">
+          <h4 class="cert-name">Power BI Visuals</h4>
+          <span class="cert-provider">Great Learning</span>
+        </div>
+        <div class="cert-year">2024</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coding Profiles -->
+  <section class="section container reveal" id="profiles">
+    <div class="section-header">
+      <span class="section-label">Algorithms</span>
+      <h2 class="section-title">Problem Solving Profiles</h2>
+      <p class="section-subtitle">Tracking development milestones and competitive logic across platforms.</p>
+    </div>
+    <div class="profiles-grid">
+      <div class="profile-card">
+        <div class="profile-icon">🖥️</div>
+        <h3 class="profile-name">LeetCode</h3>
+        <a href="https://leetcode.com" target="_blank" class="profile-link-btn">View Profile ↗</a>
+      </div>
+      <div class="profile-card">
+        <div class="profile-icon">⚡</div>
+        <h3 class="profile-name">SkillRack</h3>
+        <a href="https://www.skillrack.com" target="_blank" class="profile-link-btn">View Profile ↗</a>
+      </div>
+      <div class="profile-card">
+        <div class="profile-icon">🧑‍💻</div>
+        <h3 class="profile-name">CodeChef</h3>
+        <a href="https://www.codechef.com" target="_blank" class="profile-link-btn font-stats">View Profile ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journey Section -->
+  <section class="section container reveal" id="journey">
+    <div class="section-header">
+      <span class="section-label">Timeline</span>
+      <h2 class="section-title">My Journey Map</h2>
+      <p class="section-subtitle">Tracing my evolution from college entry to AI project architectures and future vision.</p>
+    </div>
+    <div class="journey-timeline">
+      <div class="journey-item">
+        <div class="journey-dot active"></div>
+        <div class="journey-content">
+          <div class="journey-year">2024</div>
+          <h4 class="journey-title">College Begins</h4>
+          <p class="journey-desc">Started foundational B.Tech courses in AI & Data Science. Mastering procedural logic and database schemas.</p>
+        </div>
+      </div>
+      <div class="journey-item">
+        <div class="journey-dot active"></div>
+        <div class="journey-content">
+          <div class="journey-year">2025</div>
+          <h4 class="journey-title">Hackathons & Internships</h4>
+          <p class="journey-desc">Won award at Freshathon. Finished 4-week computer vision internship at NIELIT Calicut.</p>
+        </div>
+      </div>
+      <div class="journey-item">
+        <div class="journey-dot active"></div>
+        <div class="journey-content">
+          <div class="journey-year">2026</div>
+          <h4 class="journey-title">Malaysia Innovation</h4>
+          <p class="journey-desc">Participated in the heritage sustainability project at UiTM, Malaysia, winning third prize.</p>
+        </div>
+      </div>
+      <div class="journey-item">
+        <div class="journey-dot"></div>
+        <div class="journey-content">
+          <div class="journey-year">Future</div>
+          <h4 class="journey-title">AI System Architect</h4>
+          <p class="journey-desc">Targeting full-stack AI/ML roles focusing on scalable deep neural network deployments globally.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Hire Me Section -->
+  <section class="section container reveal" id="why-hire-me">
+    <div class="section-header">
+      <span class="section-label">Recruiter Insights</span>
+      <h2 class="section-title">Why Hire Me?</h2>
+      <p class="section-subtitle">Evaluating my core strengths and competencies in cross-functional domains.</p>
+    </div>
+    <div class="hire-grid">
+      <div class="hire-card">
+        <div class="hire-icon">🚀</div>
+        <h4 class="hire-title">International Collaborator</h4>
+        <p class="hire-desc">Secured third prize at UiTM Malaysia workspace demonstrating agility in diverse engineering cultures.</p>
+      </div>
+      <div class="hire-card">
+        <div class="hire-icon">👁️</div>
+        <h4 class="hire-title">Computer Vision Focus</h4>
+        <p class="hire-desc">Built gaze-tracking, multi-face processing algorithms with Flask framework integrations.</p>
+      </div>
+      <div class="hire-card">
+        <div class="hire-icon">🤝</div>
+        <h4 class="hire-title">Rapid Prototyper</h4>
+        <p class="hire-desc">Proven background at Freshathon and Createathon hackathons executing layouts under tight constraints.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Banner -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-number" data-count="3">0</div>
+        <div class="stat-label">AI Projects</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="2">0</div>
+        <div class="stat-label">Internships</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="2">0</div>
+        <div class="stat-label">Hackathon Prizes</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="7">0</div>
+        <div class="stat-label">Certifications</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section container reveal" id="contact">
+    <div class="section-header">
+      <span class="section-label">Get in Touch</span>
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Have questions or want to collaborate? Send a message directly.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Primary Coordinates</h3>
+        <div class="contact-item">
+          <div class="contact-item-icon">📧</div>
+          <div>
+            <div class="contact-item-label">Email</div>
+            <div class="contact-item-value"><a href="mailto:pranav.m2024aids@sece.ac.in">pranav.m2024aids@sece.ac.in</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📱</div>
+          <div>
+            <div class="contact-item-label">Phone</div>
+            <div class="contact-item-value"><a href="tel:+918610846422">+91 8610846422</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div>
+            <div class="contact-item-label">Location</div>
+            <div class="contact-item-value">Coimbatore, Tamil Nadu, India</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" id="contactForm" onsubmit="handleContactSubmit(event)">
+        <div class="form-group">
+          <label class="form-label" for="formName">Full Name</label>
+          <input type="text" class="form-input" id="formName" required placeholder="e.g. John Doe">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="formEmail">Email Address</label>
+          <input type="email" class="form-input" id="formEmail" required placeholder="e.g. john@example.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="formMessage">Message</label>
+          <textarea class="form-textarea" id="formMessage" required placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message 🚀</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3>PRANAV M</h3>
+        <p>AI & Data Science Engineer building impactful software applications.</p>
+        <p class="footer-quote">"The best way to predict the future is to build it ourselves with deliberate precision."</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="#hero">Home</a>
+          <a href="#about">Philosophy</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+        </div>
+        <div class="footer-col">
+          <h4>Social Channels</h4>
+          <div class="footer-social">
+            <a href="https://github.com" target="_blank" class="footer-social-link" aria-label="GitHub">GH</a>
+            <a href="https://linkedin.com" target="_blank" class="footer-social-link" aria-label="LinkedIn">LI</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; 2026 Pranav M. All Rights Reserved.</span>
+      <div class="back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">Back to Top ↑</div>
+    </div>
+  </footer>
+
+  <!-- Project Details Modal -->
+  <div class="project-modal-overlay" id="projectModal" onclick="closeProjectModalOnOverlay(event)">
+    <div class="project-modal">
+      <div class="modal-header">
+        <h3 id="modalHeading">Project Details</h3>
+        <button class="modal-close" onclick="closeProjectModal()">×</button>
+      </div>
+      <div class="modal-body" id="modalContent">
+        <!-- Dynamic content injected here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Command Palette Modal -->
+  <div class="cmd-overlay" id="cmdOverlay" onclick="closeCmdPaletteOnOverlay(event)">
+    <div class="cmd-palette">
+      <div class="cmd-input-wrap">
+        <span class="cmd-search-icon">🔍</span>
+        <input type="text" class="cmd-input" id="cmdInput" placeholder="Type a command or search..." oninput="filterCmdList()">
+        <span class="cmd-kbd">ESC</span>
+      </div>
+      <div class="cmd-results" id="cmdResults">
+        <div class="cmd-item" onclick="execCmd('#hero')">
+          <span class="cmd-item-icon">🏠</span>
+          <span class="cmd-item-label">Navigate to Home Section</span>
+          <span class="cmd-item-shortcut">G H</span>
+        </div>
+        <div class="cmd-item" onclick="execCmd('#about')">
+          <span class="cmd-item-icon">🧠</span>
+          <span class="cmd-item-label">Navigate to Philosophy Section</span>
+          <span class="cmd-item-shortcut">G P</span>
+        </div>
+        <div class="cmd-item" onclick="execCmd('#experience')">
+          <span class="cmd-item-icon">💼</span>
+          <span class="cmd-item-label">Navigate to Experience Section</span>
+          <span class="cmd-item-shortcut">G E</span>
+        </div>
+        <div class="cmd-item" onclick="execCmd('#projects')">
+          <span class="cmd-item-icon">🚀</span>
+          <span class="cmd-item-label">Navigate to Projects Section</span>
+          <span class="cmd-item-shortcut">G C</span>
+        </div>
+        <div class="cmd-item" onclick="execCmd('#skills')">
+          <span class="cmd-item-icon">💻</span>
+          <span class="cmd-item-label">Navigate to Skills Section</span>
+          <span class="cmd-item-shortcut">G S</span>
+        </div>
+        <div class="cmd-item" onclick="execCmd('#contact')">
+          <span class="cmd-item-icon">📧</span>
+          <span class="cmd-item-label">Navigate to Contact Section</span>
+          <span class="cmd-item-shortcut">G M</span>
+        </div>
+        <div class="cmd-item" onclick="execCmd('resume')">
+          <span class="cmd-item-icon">💾</span>
+          <span class="cmd-item-label">Download Resume PDF Document</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Easter egg message display container -->
+  <div class="easter-egg-message" id="easterEggMessage"></div>
+
+  <!-- Toast Notification System -->
+  <div class="toast" id="toastMessage">Your message has been sent successfully!</div>
+
+  <!-- Javascript Implementation Engine -->
+  <script>
+    // Project Information Database
+    const projectDb = {
+      proctoring: {
+        title: "Online Exam Proctoring System",
+        subtitle: "Deployed Multi-Factor Cheating Detection",
+        problem: "Traditional online software lacks tracking checks, enabling simple visual and material cheating.",
+        solution: "Engineered a Python/Flask proctoring site monitoring active windows and tracking eyeball deflection ranges.",
+        tech: ["Python", "Flask", "OpenCV", "Gaze Tracking", "Object Detection"],
+        features: [
+          "Gaze Deflection Analysis using Dlib predictor vectors",
+          "Secondary monitor screen detection filters",
+          "Automated suspicious audio logs with speech volume calculations"
+        ]
+      },
+      signsense: {
+        title: "SignSense",
+        subtitle: "Multi-Gesture Sign Language Translator",
+        problem: "Muted and hearing individuals face conversation gaps because transcription is largely manual.",
+        solution: "Engineered a computer-vision neural network pipeline mapping hand coordinates to real-time speech scripts.",
+        tech: ["OpenCV", "TensorFlow", "WebSockets", "Text-To-Speech", "Python"],
+        features: [
+          "Low-latency landmark captures with custom translation lookups",
+          "Dynamic phrase suggestions matching previous sentences",
+          "Instant voice transcription through sound pipelines"
+        ]
+      },
+      telecaller: {
+        title: "AI Telecaller",
+        subtitle: "Predictive Automated Dialing System",
+        problem: "Sales calling suffers from poor outbound response rates and substantial agent training overheads.",
+        solution: "Engineered an AI agent dialing API that initiates dialogues, matches intents, and processes feedback paths.",
+        tech: ["Python", "Flask", "Twilio API", "DBMS", "Speech Recognition"],
+        features: [
+          "Intelligent user responses logging database entities",
+          "Twilio voice configuration mapping real-time streams",
+          "Scale performance dashboards monitoring call durations"
+        ]
+      }
+    };
+
+    // DOM Loading Logic
+    window.addEventListener("DOMContentLoaded", () => {
+      // Simulate Loader
+      const fill = document.getElementById("loadingFill");
+      const percent = document.getElementById("loadingPercent");
+      const screen = document.getElementById("loadingScreen");
+      let val = 0;
+      const interval = setInterval(() => {
+        val += Math.floor(Math.random() * 15) + 5;
+        if (val > 100) val = 100;
+        fill.style.width = val + "%";
+        percent.textContent = val + "%";
+        if (val === 100) {
+          clearInterval(interval);
+          setTimeout(() => {
+            screen.classList.add("hidden");
+            // Run counts
+            animateCounters();
+          }, 400);
+        }
+      }, 80);
+
+      // Custom Follow Cursor
+      const dot = document.getElementById("cursorDot");
+      const ring = document.getElementById("cursorRing");
+      document.addEventListener("mousemove", (e) => {
+        dot.style.left = e.clientX + "px";
+        dot.style.top = e.clientY + "px";
+        ring.style.left = e.clientX + "px";
+        ring.style.top = e.clientY + "px";
+      });
+
+      // Hover triggers on anchors/buttons
+      const triggers = document.querySelectorAll("a, button, .project-card, .skill-pill");
+      triggers.forEach(el => {
+        el.addEventListener("mouseenter", () => {
+          dot.classList.add("hover");
+          ring.classList.add("hover");
+        });
+        el.addEventListener("mouseleave", () => {
+          dot.classList.remove("hover");
+          ring.classList.remove("hover");
+        });
+      });
+
+      // Scroll Progress Bar
+      window.addEventListener("scroll", () => {
+        const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+        document.getElementById("scrollProgress").style.width = scrolled + "%";
+      });
+
+      // Smooth section reveals when scrolling
+      const reveals = document.querySelectorAll(".reveal");
+      const activeNavLinks = () => {
+        let current = "";
+        const scrollPos = window.scrollY + 120;
+        document.querySelectorAll("section").forEach(sec => {
+          if (scrollPos >= sec.offsetTop && scrollPos < sec.offsetTop + sec.offsetHeight) {
+            current = sec.getAttribute("id");
+          }
+        });
+        document.querySelectorAll(".nav-link").forEach(link => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+          }
+        });
+      };
+
+      const handleScrollReveal = () => {
+        reveals.forEach(el => {
+          const top = el.getBoundingClientRect().top;
+          if (top < window.innerHeight - 80) {
+            el.classList.add("visible");
+          }
+        });
+        activeNavLinks();
+      };
+      window.addEventListener("scroll", handleScrollReveal);
+      handleScrollReveal();
+
+      // Mobile Menu Trigger
+      const menuBtn = document.getElementById("mobileMenuBtn");
+      const mobileNav = document.getElementById("mobileNav");
+      const hamb = document.getElementById("hamburger");
+      menuBtn.addEventListener("click", () => {
+        mobileNav.classList.toggle("open");
+        hamb.classList.toggle("open");
+      });
+      mobileNav.querySelectorAll("a").forEach(a => {
+        a.addEventListener("click", () => {
+          mobileNav.classList.remove("open");
+          hamb.classList.remove("open");
+        });
+      });
+
+      // Command menu palette listener (Ctrl+K)
+      document.addEventListener("keydown", (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+          e.preventDefault();
+          toggleCmdPalette();
+        }
+        if (e.key === "Escape") {
+          closeCmdPalette();
+          closeProjectModal();
+        }
+        handleKonamiCode(e.key);
+      });
+    });
+
+    // Project Modals Controller
+    function openProjectModal(key) {
+      const data = projectDb[key];
+      if (!data) return;
+      document.getElementById("modalHeading").textContent = data.title;
+      let techBadges = "";
+      data.tech.forEach((t) => {
+        techBadges += `<span class="project-tag" style="margin-right:6px">${t}</span>`;
+      });
+      let feats = "";
+      data.features.forEach((f) => {
+        feats += `<div class="modal-feature"><span>${f}</span></div>`;
+      });
+
+      document.getElementById("modalContent").innerHTML = `
+        <h4 style="margin-top:0">${data.subtitle}</h4>
+        <p><strong>Problem:</strong> ${data.problem}</p>
+        <p><strong>Solution:</strong> ${data.solution}</p>
+        <h4>Technology Badges</h4>
+        <div class="modal-tech-tags">${techBadges}</div>
+        <h4>Key Implementations</h4>
+        <div class="modal-feature-list">${feats}</div>
+      `;
+      document.getElementById("projectModal").classList.add("open");
+    }
+
+    function closeProjectModal() {
+      document.getElementById("projectModal").classList.remove("open");
+    }
+
+    function closeProjectModalOnOverlay(e) {
+      if (e.target.id === "projectModal") {
+        closeProjectModal();
+      }
+    }
+
+    // Command Palette Functions
+    function toggleCmdPalette() {
+      document.getElementById("cmdOverlay").classList.toggle("open");
+      if (document.getElementById("cmdOverlay").classList.contains("open")) {
+        document.getElementById("cmdInput").focus();
+      }
+    }
+
+    function closeCmdPalette() {
+      document.getElementById("cmdOverlay").classList.remove("open");
+    }
+
+    function closeCmdPaletteOnOverlay(e) {
+      if (e.target.id === "cmdOverlay") {
+        closeCmdPalette();
+      }
+    }
+
+    function filterCmdList() {
+      const q = document.getElementById("cmdInput").value.toLowerCase();
+      document.querySelectorAll(".cmd-item").forEach(item => {
+        const text = item.innerText.toLowerCase();
+        item.style.display = text.includes(q) ? "flex" : "none";
+      });
+    }
+
+    function execCmd(target) {
+      closeCmdPalette();
+      if (target === "resume") {
+        window.location.href = "mailto:pranav.m2024aids@sece.ac.in";
+      } else {
+        const el = document.querySelector(target);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Counters count up trigger animation
+    function animateCounters() {
+      document.querySelectorAll(".stat-number").forEach(c => {
+        const countTo = parseInt(c.getAttribute("data-count"));
+        let current = 0;
+        const duration = 2000;
+        const stepTime = Math.abs(Math.floor(duration / countTo));
+        const timer = setInterval(() => {
+          current++;
+          c.textContent = current + "+";
+          if (current >= countTo) {
+            c.textContent = countTo + "+";
+            clearInterval(timer);
+          }
+        }, stepTime);
+      });
+    }
+
+    // Contact submission toaster controller
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const toast = document.getElementById("toastMessage");
+      toast.classList.add("show");
+      document.getElementById("contactForm").reset();
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 3000);
+    }
+
+    // Konami Code Easter Egg
+    const konami = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
+    let kIdx = 0;
+    function handleKonamiCode(key) {
+      if (key === konami[kIdx]) {
+        kIdx++;
+        if (kIdx === konami.length) {
+          kIdx = 0;
+          triggerEasterEgg();
+        }
+      } else {
+        kIdx = 0;
+      }
+    }
+
+    function triggerEasterEgg() {
+      const wrapper = document.getElementById("easterEggMessage");
+      wrapper.textContent = "🤫 Special Dev Secret: 'Thanks for evaluating my profile!' - Pranav";
+      wrapper.classList.add("show");
+      setTimeout(() => {
+        wrapper.classList.remove("show");
+      }, 5000);
+    }
+  </script>
+</body>
+</html>
