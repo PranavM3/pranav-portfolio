@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pranav M. | Premium Product & Frontend Portfolio",
+  title: "Pranav M | AI & Data Science Engineer Portfolio",
   description:
-    "A polished portfolio for Pranav M. featuring product engineering, premium UI craft, and modern SaaS-quality experiences.",
-  keywords: ["Pranav M.", "Frontend Engineer", "Next.js", "Portfolio", "Product Design"],
+    "Portfolio of Pranav M, an AI & Data Science engineer building computer vision, machine learning, and cloud-based solutions.",
+  keywords: ["Pranav M", "AI Engineer", "Data Science", "Computer Vision", "Machine Learning", "Portfolio"],
   openGraph: {
-    title: "Pranav M. | Premium Portfolio",
-    description: "Product-focused frontend engineer crafting elegant, high-conversion digital experiences.",
+    title: "Pranav M | AI & Data Science Engineer",
+    description: "AI and Data Science student crafting intelligent systems with computer vision, machine learning, and modern web experiences.",
     type: "website",
   },
 };

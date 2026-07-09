@@ -33,156 +33,156 @@ export type TimelineItem = {
 };
 
 export const profile = {
-  name: "Pranav M.",
-  role: "Senior Frontend Engineer & Product Builder",
+  name: "Pranav M",
+  role: "AI & Data Science Engineer",
   intro:
-    "I craft premium, conversion-driven digital experiences for startups and modern SaaS teams—blending thoughtful design, fast interfaces, and measurable product impact.",
-  location: "Bengaluru, India",
-  email: "hello@pranavm.dev",
-  availability: "Available for select product and engineering roles",
+    "I build practical AI systems, computer vision pipelines, and data-driven experiences that turn ideas into impact.",
+  location: "India",
+  email: "pranav.m2024aids@sece.ac.in",
+  availability: "Open to internships, research, and AI engineering opportunities",
   headline:
-    "I turn bold product ideas into polished, scalable experiences that feel as refined as they are reliable.",
+    "I design and ship intelligent solutions across machine learning, computer vision, cloud deployment, and polished web experiences.",
 };
 
 export const about = {
   paragraph:
-    "With a strong foundation in product engineering and design systems, I focus on building high-trust digital products that look exceptional and perform effortlessly. My work spans performance-led frontend architecture, elegant UI systems, and strategy-first product collaboration.",
+    "As an AI & Data Science student, I’m passionate about turning real-world problems into intelligent systems. My work spans computer vision, predictive modeling, cloud-based deployment, and thoughtful product-facing interfaces.",
   highlights: [
-    "8+ years shipping product experiences for ambitious startups",
-    "Deep expertise in React, Next.js, TypeScript, and design systems",
-    "Known for balancing speed, clarity, and premium visual craft",
+    "Hands-on experience with computer vision, ML pipelines, and cloud computing",
+    "Built AI systems for exam monitoring, sustainability, and modern product prototypes",
+    "Strong foundation in Python, machine learning, web technologies, and collaborative problem solving",
   ],
 };
 
 export const education: EducationItem[] = [
   {
-    institution: "University of Mumbai",
-    degree: "B.Tech in Computer Engineering",
-    period: "2016 – 2020",
+    institution: "Sri Eshwar College of Engineering",
+    degree: "B.Tech in Artificial Intelligence & Data Science",
+    period: "2024 – Present",
     description:
-      "Built a strong technical foundation in software architecture, human-centered design, and product development.",
+      "Building a strong foundation in machine learning, data analytics, cloud computing, and real-world problem solving.",
   },
   {
-    institution: "NPTEL / Coursera",
-    degree: "Specializations in UI Systems & Product Strategy",
-    period: "2021 – 2023",
+    institution: "Independent learning & hands-on projects",
+    degree: "Applied AI, Computer Vision & Web Engineering",
+    period: "2024 – Present",
     description:
-      "Expanded expertise in advanced frontend performance, interface design, and modern growth practices.",
+      "Strengthening my practice through internships, hackathons, and end-to-end builds that connect research with deployment.",
   },
 ];
 
 export const experience: ExperienceItem[] = [
   {
-    role: "Senior Frontend Engineer",
-    company: "Northstar Labs",
-    period: "2022 – Present",
+    role: "AI Internship Trainee",
+    company: "NIELIT",
+    period: "2025",
     highlights: [
-      "Led the frontend rebuild for a SaaS analytics platform used by 200k+ customers.",
-      "Introduced motion systems, accessible components, and a design-language framework across the product.",
-      "Improved core web vitals and conversion rate by 34% through thoughtful UX and performance work.",
+      "Developed an AI-based online exam cheating detection system with real-time monitoring workflows.",
+      "Built computer vision-based tracking modules for suspicious behavior detection and alerting.",
+      "Worked across model design, feature selection, and deployment-focused experimentation.",
     ],
   },
   {
-    role: "Product Engineer",
-    company: "Atelier AI",
-    period: "2020 – 2022",
+    role: "Innovation Program Participant",
+    company: "UiTM Malaysia",
+    period: "2025",
     highlights: [
-      "Built onboarding and growth surfaces that helped the company expand from seed to Series A.",
-      "Collaborated closely with founders and designers to turn product strategy into intuitive experiences.",
-      "Created reusable UI primitives that shortened delivery time for new launches.",
+      "Contributed to an SDG-focused heritage sustainability solution in an international innovation setting.",
+      "Applied cloud, data, and collaborative problem-solving concepts to create a practical prototype.",
+      "Helped the team earn recognition for creativity, impact, and cross-functional execution.",
     ],
   },
 ];
 
 export const featuredProject: ProjectItem = {
-  title: "Northstar Intelligence",
+  title: "AI-Based Online Exam Cheating Detection System",
   summary:
-    "A premium analytics workspace for modern teams, combining real-time reporting, elegant data storytelling, and a frictionless product experience.",
-  stack: ["Next.js", "TypeScript", "Tailwind", "Framer Motion", "GSAP"],
-  impact: "Raised activation by 28% and reduced abandonment during onboarding by 41%.",
+    "A computer vision and AI-driven monitoring system designed to detect suspicious activity during online exams and support safer assessment workflows.",
+  stack: ["Python", "OpenCV", "MediaPipe", "Flask", "Cloud"],
+  impact: "Built a practical prototype for real-time monitoring with a strong focus on accuracy, reliability, and deployment readiness.",
   image: "/images/project-feature.svg",
-  link: "https://github.com/pranavm",
+  link: "https://github.com/PranavM3/pranav-portfolio",
 };
 
 export const projects: ProjectItem[] = [
   {
-    title: "Aether Commerce",
+    title: "AI-Based Online Exam Monitoring",
     summary:
-      "A polished storefront experience for a premium fashion brand, emphasizing storytelling, motion, and conversion clarity.",
-    stack: ["React", "Next.js", "Shopify", "Motion"],
-    impact: "Lifted average order value by 18% through better merchandising journeys.",
+      "An intelligent monitoring workflow that combines computer vision and AI logic for detecting potential cheating during online assessments.",
+    stack: ["Python", "OpenCV", "Flask", "Computer Vision"],
+    impact: "Created a strong proof of concept for applied AI in academic and assessment environments.",
     image: "/images/project-one.svg",
-    link: "https://github.com/pranavm/aether-commerce",
+    link: "https://github.com/PranavM3/pranav-portfolio",
   },
   {
-    title: "Lumen Finance",
+    title: "SDG Heritage Sustainability Solution",
     summary:
-      "An elegant financial dashboard that translated complex workflows into calm, actionable, investor-friendly interfaces.",
-    stack: ["TypeScript", "Node", "Tailwind", "Charts"],
-    impact: "Improved task completion speed by 22% for customer success teams.",
+      "A collaborative innovation project focused on sustainability, heritage awareness, and practical digital impact.",
+    stack: ["Cloud", "Data", "Product Thinking", "Collaboration"],
+    impact: "Demonstrated how data-informed solutions can support meaningful social and environmental goals.",
     image: "/images/project-two.svg",
-    link: "https://github.com/pranavm/lumen-finance",
+    link: "https://github.com/PranavM3/pranav-portfolio",
   },
   {
-    title: "Signal Studio",
+    title: "Interactive AI/DS Portfolio Experience",
     summary:
-      "A collaborative design workspace where teams manage experiments, feedback, and rapid iteration without losing momentum.",
-    stack: ["Next.js", "WebSockets", "Figma APIs", "Motion"],
-    impact: "Cut review turnaround time by 35% for cross-functional teams.",
+      "A polished portfolio experience that presents my projects, learning journey, and technical interests through modern web design.",
+    stack: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+    impact: "Showcases my work with a responsive, premium experience that reflects both engineering and design discipline.",
     image: "/images/project-three.svg",
-    link: "https://github.com/pranavm/signal-studio",
+    link: "https://github.com/PranavM3/pranav-portfolio",
   },
 ];
 
 export const skills: SkillGroup[] = [
   {
-    title: "Product & Interface",
-    items: ["User Experience Design", "Design Systems", "Accessibility", "Visual Storytelling"],
+    title: "AI & Machine Learning",
+    items: ["Python", "PyTorch", "scikit-learn", "OpenCV", "Data Analysis"],
   },
   {
-    title: "Frontend Engineering",
-    items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP"],
+    title: "Data & Cloud",
+    items: ["Pandas", "NumPy", "SQL", "Cloud basics", "Deployment"],
   },
   {
-    title: "Delivery & Strategy",
-    items: ["Performance Optimization", "A/B Testing", "Product Thinking", "Cross-functional Leadership"],
+    title: "Web & Product",
+    items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Git & GitHub"],
   },
 ];
 
 export const achievements = [
-  "Built a design system adopted by 5 product squads across two markets.",
-  "Recognized for shipping a flagship launch under a 6-week timeline with a high-quality bar.",
-  "Delivered performance improvements that translated to measurable business growth.",
+  "Completed a 4-week AI internship at NIELIT and built a real-time cheating detection system.",
+  "Secured recognition in the UiTM Malaysia innovation program for a sustainability-focused solution.",
+  "Participated in Freshathon 2k25 and Createathon, turning ideas into functional prototypes under tight deadlines.",
 ];
 
 export const certifications = [
-  { title: "Google UX Design Certificate", issuer: "Google" },
-  { title: "Frontend Web Development", issuer: "Meta" },
-  { title: "Advanced React & Next.js", issuer: "Frontend Masters" },
+  { title: "AI Internship Program", issuer: "NIELIT" },
+  { title: "Machine Learning Foundations", issuer: "Independent Study" },
+  { title: "Cloud & Web Development Fundamentals", issuer: "Hands-on Projects" },
 ];
 
 export const codingProfiles = [
-  { label: "GitHub", url: "https://github.com/pranavm", stat: "30+ public repositories" },
-  { label: "LeetCode", url: "https://leetcode.com/pranavm", stat: "150+ problems solved" },
-  { label: "CodePen", url: "https://codepen.io/pranavm", stat: "Experimental UI playground" },
+  { label: "GitHub", url: "https://github.com/PranavM3/pranav-portfolio", stat: "Portfolio and AI project work" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/", stat: "Professional profile" },
+  { label: "LeetCode", url: "https://leetcode.com/", stat: "Problem solving and coding practice" },
 ];
 
 export const timeline: TimelineItem[] = [
-  { year: "2018", title: "First shipped product", description: "Built a community platform for local creators with a focus on speed and clarity." },
-  { year: "2020", title: "Joined a growth-stage startup", description: "Moved into product engineering, owning frontend experiences for customer-facing products." },
-  { year: "2022", title: "Led platform redesign", description: "Rebuilt a complex SaaS interface with a more premium visual language and stronger performance." },
-  { year: "2025", title: "Focused on premium product craft", description: "Now partnering with founders and product teams to create high-end digital experiences." },
+  { year: "2024", title: "Started the AI & Data Science path", description: "Built a strong base in programming, data, and applied problem solving." },
+  { year: "2025", title: "Completed AI internship at NIELIT", description: "Worked on a computer vision-based solution for online exam monitoring." },
+  { year: "2025", title: "Joined the UiTM innovation program", description: "Contributed to an SDG-inspired sustainability solution with a global team." },
+  { year: "2026", title: "Building intelligent products", description: "Now focusing on practical AI systems, polished interfaces, and deployment-ready prototypes." },
 ];
 
 export const gallery = [
-  { title: "Crafted UI systems", caption: "Design systems that scale from prototype to production.", image: "/images/gallery-one.svg" },
-  { title: "Motion-led storytelling", caption: "Elegant transitions that guide attention and delight users.", image: "/images/gallery-two.svg" },
-  { title: "High-performance product work", caption: "A thoughtful balance of smooth interaction and technical rigor.", image: "/images/gallery-three.svg" },
+  { title: "Computer vision experiments", caption: "Hands-on work at the intersection of AI and real-world problem solving.", image: "/images/gallery-one.svg" },
+  { title: "Applied AI prototyping", caption: "Turning research concepts into practical, testable systems.", image: "/images/gallery-two.svg" },
+  { title: "Polished digital storytelling", caption: "Presenting technical work with clarity, structure, and design care.", image: "/images/gallery-three.svg" },
 ];
 
 export const navItems = [
   { label: "About", href: "#about" },
-  { label: "Work", href: "#experience" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];

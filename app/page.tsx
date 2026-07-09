@@ -62,7 +62,7 @@ export default function Home() {
           <div className="flex flex-col justify-center">
             <div className="mb-5 inline-flex w-fit items-center gap-2 rounded-full border border-[#7a1f2d]/20 bg-white/70 px-4 py-2 text-sm text-[#7a1f2d] shadow-sm backdrop-blur">
               <Sparkles size={16} />
-              Available for premium product and frontend roles
+              Open to AI, ML, and data-driven opportunities
             </div>
             <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-zinc-950 sm:text-5xl lg:text-7xl">
               {profile.role}
@@ -73,12 +73,12 @@ export default function Home() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild size="lg">
                 <Link href="#contact">
-                  Let&apos;s build something exceptional
+                  Let&apos;s build something intelligent
                   <ArrowRight className="ml-2" size={18} />
                 </Link>
               </Button>
               <Button asChild variant="secondary" size="lg">
-                <Link href="#projects">View selected work</Link>
+                <Link href="#projects">Explore selected projects</Link>
               </Button>
             </div>
             <div className="mt-8 flex flex-wrap gap-4 text-sm text-zinc-600">
@@ -97,14 +97,14 @@ export default function Home() {
           <div className="rounded-[2rem] border border-white/60 bg-white/70 p-8 shadow-[0_20px_70px_rgba(0,0,0,0.06)] backdrop-blur-xl sm:p-10 lg:p-14">
             <SectionHeading
               eyebrow="About"
-              title="Crafted for product teams that care about feel, speed, and trust."
-              description="I combine high-end visual design with grounded engineering to create digital products that feel effortless from the first click."
+              title="Building AI systems that are practical, thoughtful, and ready to use."
+              description="I combine technical depth with a product-minded approach to create solutions that are useful, explainable, and built to scale."
             />
             <div className="mt-10 grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
               <div className="space-y-4 text-lg leading-8 text-zinc-700">
                 <p>{about.paragraph}</p>
                 <p>
-                  My approach is simple: shape the product experience around outcomes, then build it with the discipline of a strong design system and a performance-first mindset.
+                  My approach is grounded in experimentation, disciplined engineering, and a clear focus on real impact—whether that means improving a workflow, building a model, or shipping a polished experience.
                 </p>
               </div>
               <div className="rounded-[1.5rem] border border-[#7a1f2d]/12 bg-[#fff7f8] p-6">
@@ -128,8 +128,8 @@ export default function Home() {
         <AnimatedSection id="education" className="mx-auto max-w-7xl px-6 py-10 sm:px-8 lg:px-10 lg:py-20">
           <SectionHeading
             eyebrow="Education"
-            title="A foundation in engineering, design, and product fluency."
-            description="The work reflects a balance of technical depth and thoughtful product leadership."
+            title="A foundation in AI, data, and real-world problem solving."
+            description="My education and self-driven learning are centered on building practical systems with technical depth and clear purpose."
           />
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
             {education.map((item) => (
@@ -149,8 +149,8 @@ export default function Home() {
         <AnimatedSection id="experience" className="mx-auto max-w-7xl px-6 py-10 sm:px-8 lg:px-10 lg:py-20">
           <SectionHeading
             eyebrow="Experience"
-            title="Building products that balance polish, performance, and clarity."
-            description="Most of my work sits at the intersection of frontend engineering, product strategy, and visual craft."
+            title="Shaping intelligent solutions through internships, collaboration, and experimentation."
+            description="My experience lies at the intersection of AI engineering, applied research, and practical product thinking."
           />
           <div className="mt-10 space-y-6">
             {experience.map((item) => (
@@ -183,8 +183,8 @@ export default function Home() {
             <div>
               <SectionHeading
                 eyebrow="Featured project"
-                title="Northstar Intelligence"
-                description="A premium analytics workspace that turned complex product data into calm, confident decision-making."
+                title={featuredProject.title}
+                description="An applied AI project focused on real-time monitoring, reliability, and solving a meaningful problem end to end."
               />
               <p className="mt-6 text-lg leading-8 text-zinc-700">{featuredProject.summary}</p>
               <div className="mt-6 flex flex-wrap gap-3">
@@ -211,8 +211,8 @@ export default function Home() {
         <AnimatedSection id="projects" className="mx-auto max-w-7xl px-6 py-10 sm:px-8 lg:px-10 lg:py-20">
           <SectionHeading
             eyebrow="Projects"
-            title="A portfolio shaped by thoughtful execution and measurable outcomes."
-            description="Each engagement is focused on quality, shipment speed, and a premium user experience."
+            title="A portfolio shaped by applied intelligence and thoughtful execution."
+            description="Each project reflects a balance of technical rigor, experimentation, and real-world usefulness."
           />
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
             {projects.map((project) => (
@@ -246,8 +246,8 @@ export default function Home() {
             <div>
               <SectionHeading
                 eyebrow="Skills"
-                title="A modern stack with a premium product lens."
-                description="The work is grounded in high-quality code, thoughtful systems, and collaborative execution."
+                title="A modern stack with an AI-first lens."
+                description="My toolkit combines machine learning, data handling, cloud awareness, and polished software delivery."
               />
             </div>
             <div className="grid gap-5 md:grid-cols-3">
@@ -273,8 +273,8 @@ export default function Home() {
             <div className="rounded-[2rem] border border-white/60 bg-[#fff7f8] p-8 shadow-sm">
               <SectionHeading
                 eyebrow="Achievements"
-                title="Momentum shaped by quality and consistency."
-                description="The outcomes speak as much to product thinking as they do to technical execution."
+                title="Momentum shaped by curiosity and consistency."
+                description="The outcomes reflect both technical execution and a strong instinct for solving meaningful problems."
               />
               <div className="mt-8 space-y-4 text-base leading-8 text-zinc-700">
                 {achievements.map((achievement) => (
@@ -288,8 +288,8 @@ export default function Home() {
             <div className="rounded-[2rem] border border-white/60 bg-white/70 p-8 shadow-sm backdrop-blur-xl">
               <SectionHeading
                 eyebrow="Certifications"
-                title="Continuous growth in craft and product discipline."
-                description="A commitment to staying sharp, current, and deeply useful."
+                title="Continuous growth in craft and technical depth."
+                description="A commitment to staying sharp, current, and deeply useful in a fast-moving field."
               />
               <div className="mt-8 space-y-4">
                 {certifications.map((cert) => (
@@ -311,7 +311,7 @@ export default function Home() {
             <SectionHeading
               eyebrow="Coding profiles"
               title="A steady practice in code, design, and experimentation."
-              description="I keep a public pulse on product thinking through regular technical exploration and learning."
+              description="I keep a visible trail of learning and building through public technical exploration."
             />
             <div className="mt-10 grid gap-5 md:grid-cols-3">
               {codingProfiles.map((profileItem) => (
@@ -330,8 +330,8 @@ export default function Home() {
         <AnimatedSection className="mx-auto max-w-7xl px-6 py-10 sm:px-8 lg:px-10 lg:py-20">
           <SectionHeading
             eyebrow="Journey timeline"
-            title="A path shaped by product curiosity and thoughtful growth."
-            description="Every step has reinforced a clear approach: build refined experiences, then keep improving them."
+            title="A path shaped by curiosity, learning, and practical growth."
+            description="Every step has reinforced a clear approach: build useful systems, learn quickly, and keep improving them."
           />
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
             {timeline.map((item) => (
@@ -347,8 +347,8 @@ export default function Home() {
         <AnimatedSection className="mx-auto max-w-7xl px-6 py-10 sm:px-8 lg:px-10 lg:py-20">
           <SectionHeading
             eyebrow="Gallery"
-            title="Selected moments from a product-minded design practice."
-            description="A visual record of polished interfaces, thoughtful motion, and systems built to last."
+            title="Selected moments from my AI and product-minded practice."
+            description="A visual record of technical experiments, polished interfaces, and systems built to last."
           />
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
             {gallery.map((item) => (
@@ -370,25 +370,25 @@ export default function Home() {
           <div className="rounded-[2rem] border border-white/60 bg-zinc-950 p-8 text-white shadow-[0_24px_70px_rgba(0,0,0,0.2)] lg:p-12">
             <SectionHeading
               eyebrow="Contact"
-              title="Let’s shape the next product experience together."
-              description="If you’re building something ambitious and want an experience that feels premium from the first interaction, I’d love to hear about it."
+              title="Let’s shape the next intelligent solution together."
+              description="If you’re building something ambitious in AI, data, or digital experiences, I’d love to hear about it."
               tone="light"
             />
             <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_0.8fr]">
               <div className="space-y-4 text-lg leading-8 text-zinc-300">
-                <p>I enjoy partnering with founders, product teams, and design-led organizations that care deeply about quality.</p>
-                <p>Whether you need a launch-ready frontend, a stronger design system, or a polished product narrative, I can help move it forward.</p>
+                <p>I enjoy partnering with teams and organizations that care deeply about practical AI, thoughtful systems, and real-world impact.</p>
+                <p>Whether you need a prototype, a deployment-ready solution, or a polished interface for your idea, I can help move it forward.</p>
               </div>
               <div className="flex flex-col gap-4 rounded-[1.5rem] border border-white/10 bg-white/10 p-6 backdrop-blur">
                 <a href={`mailto:${profile.email}`} className="flex items-center gap-3 text-base font-medium text-white transition hover:text-[#f4b6c2]">
                   <Mail size={18} />
                   {profile.email}
                 </a>
-                <a href="https://github.com/pranavm" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-base font-medium text-white transition hover:text-[#f4b6c2]">
+                <a href="https://github.com/PranavM3/pranav-portfolio" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-base font-medium text-white transition hover:text-[#f4b6c2]">
                   <Code2 size={18} />
                   GitHub
                 </a>
-                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-base font-medium text-white transition hover:text-[#f4b6c2]">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-base font-medium text-white transition hover:text-[#f4b6c2]">
                   <BriefcaseBusiness size={18} />
                   LinkedIn
                 </a>
@@ -398,7 +398,7 @@ export default function Home() {
         </AnimatedSection>
 
         <footer className="mx-auto flex max-w-7xl flex-col gap-3 border-t border-white/60 px-6 py-8 text-sm text-zinc-600 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10">
-          <p>© 2026 Pranav M. Crafted for modern product teams.</p>
+          <p>© 2026 Pranav M. Built for AI, data, and product-minded teams.</p>
           <div className="flex items-center gap-4">
             <Link href="#hero" className="transition hover:text-zinc-950">Back to top</Link>
             <Link href="#projects" className="transition hover:text-zinc-950">Selected work</Link>
