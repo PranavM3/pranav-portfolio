@@ -1,0 +1,37 @@
+:root {
+  --background: #fcfaf8;
+  --foreground: #171717;
+  --accent: #7a1f2d;
+  --accent-soft: #f4b6c2;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(244, 182, 194, 0.24), transparent 26%),
+    linear-gradient(135deg, #fffdfd 0%, #fcf7f8 45%, #fff7f8 100%);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: rgba(122, 31, 45, 0.22);
+  color: #1a0e12;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
